@@ -96,7 +96,7 @@
     margin: 0;
   }
   
-  .navigation__list-button {
+  .navigation__list__item a {
     font-family: "TT-lakes-medium";
     font-weight: 500;
     font-size: 16px;
@@ -105,18 +105,19 @@
     color: #1b1c21;
     background-color: #ffffff;
     transition: opacity 0.3s ease;
+    text-decoration: none;
   }
   
-  .navigation__list-button:hover {
+  .navigation__list__item:hover {
     opacity: 0.5;
   }
   
-  .navigation__list-button--active {
+  .navigation__list__item--active a {
     color: #7e7e82;
     position: relative;
   }
   
-  .navigation__list-button--active::after {
+  .navigation__list__item--active a::after {
     content: "";
     height: 32px;
     width: 4px;
