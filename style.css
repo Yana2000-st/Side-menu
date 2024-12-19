@@ -23,14 +23,16 @@ body {
 }
 
 .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     width: 320px;
-    height: 1024px;
     background-color: #FFFFFF;
-    left: 0;
-    top: 0;
     box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2), 
                 -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
     cursor: pointer; 
+    position: fixed;
 }
 
 .menu__header {
@@ -79,7 +81,7 @@ button {
     padding-left: 24px;
     display: flex;
     flex-direction: column;
-    row-gap: 268px;
+    flex: 1;
 }
 
 .navigation__list {
@@ -126,6 +128,7 @@ button {
 .footer {
    display: flex;
    flex-direction: column;
+   margin-top: auto;
 }
 
 .footer__button {
