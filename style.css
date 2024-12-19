@@ -36,7 +36,7 @@ body {
 .menu__header {
     display: flex;
     align-items: center;
-    padding: 18px 24px 46px 24px;
+    padding: 18px 24px 20px 24px;
 }
 
 button {
@@ -189,6 +189,7 @@ button {
 
 .footer__all {
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .footer__all__language {
